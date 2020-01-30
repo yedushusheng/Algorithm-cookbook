@@ -1,4 +1,6 @@
 #define HASHSIZE 12
+#define NULLKEY  -32768
+
 typedef struct
 {
 	int *elem;	//数据元素的基址,动态分配数组
